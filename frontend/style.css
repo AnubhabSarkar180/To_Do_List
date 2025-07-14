@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input{
+    padding: 7px;
+}
+
+button{
+    padding:7px;
+    background: transparent;
+    background-color: #fdaf3d;
+}
+
+.incomplete{
+    background-color: rgba(84, 202, 202, 0.76);
+    list-style: none;
+    padding: 7px;
+}
+
+.completed{
+    list-style: none;
+    padding: 7px;
+    gap:12px;
+    text-decoration: line-through;
+}
